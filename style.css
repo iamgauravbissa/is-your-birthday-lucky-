@@ -99,6 +99,7 @@ footer {
     border-radius: 80px 80px 0px 0px;
     bottom: 0px;
     left: 0px;
+    z-index: -1;
     width: 100%;
 
 }
@@ -113,3 +114,48 @@ footer {
     color: black;
     font-weight: bold;
 }
+
+#overlay{
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+#overlaynotlucky{
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    color: white;
+    text-align: center;
+    /* margin-top: 5rem; */
+}
+.ml15 {
+    
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+    /* width: 100%; */
+    margin: auto;
+    height: 100%;
+    margin-top: 5rem;
+  }
+  
+  .ml15 .word {
+      color: white;
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .closebtn{
+      background: white;
+      font-size: 30px;
+  }

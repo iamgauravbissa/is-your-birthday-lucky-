@@ -9,7 +9,23 @@
 </head>
 
 <body>
-    <div class="container container-center">
+    <div id="overlaynotlucky" style="display: none;">
+            <h1>Sorry , Your Birthday isn't lucky</h1>
+    </div>
+    <div id="overlay" style="display: none;" class="">
+       
+        <h1 class="ml15">
+            <span class="word">Congratulations</span><br>
+            <span class="word">Your </span><br>
+            <span class="word">Birthday</span><br>
+
+            <span class="word">Is</span><br>
+            <span class="word">Lucky.</span><br>
+          </h1>
+          <button id="closebtn" class="closebtn">X</button>
+</div>
+
+    <div id="hideme" class="container container-center">
         <section class="head">
             <div class="head-image">
                 <img src="header.png" alt="" class="head-image"></div>
@@ -34,4 +50,5 @@
     </footer>
 </body>
 <script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </html>
