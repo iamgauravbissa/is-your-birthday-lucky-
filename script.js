@@ -27,9 +27,9 @@ function getsum(date) {
 }
 
 function youarelucky() {
-    
+    console.log("your are a lucky")
 }
 
 function youarenotlucky() {
-    
+    console.log("no you are not lucky")
 }
