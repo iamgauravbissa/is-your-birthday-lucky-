@@ -92,7 +92,7 @@ button:hover {
 }
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     background: #62369A;
     display: flex;
     flex-direction: column;
