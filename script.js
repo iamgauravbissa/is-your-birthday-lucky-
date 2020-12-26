@@ -61,7 +61,7 @@ function youarenotlucky() {
    
     swal({
         title: "Sorry!",
-        text: "Your Birthday Isn't Lucky",
+        text: "Your Birthday Isn't Lucky, But babu I still Love YOu ",
         icon: "error",
       });
      
