@@ -29,25 +29,7 @@ function getsum(date) {
 }
 
 function youarelucky() {
-    // document.getElementById('overlay').style.display="block";
-    // document.getElementById('hideme').style.display ="none";
 
-//     anime.timeline({loop: true})
-//   .add({
-//     targets: '.ml15 .word',
-//     scale: [10,1],
-//     opacity: [0,1],
-//     easing: "easeOutCirc",
-//     duration: 800,
-//     delay: (el, i) => 800 * i
-//   }).add({
-//     targets: '.ml15',
-//     opacity: 0,
-//     duration: 1000,
-//     easing: "easeOutExpo",
-//     delay: 1000
-//   });
-//   window.setTimeout(relodefun , 5000);
 swal({
     title: "Congratulations",
     text: "Your Birthday Is Lucky!",
@@ -56,19 +38,12 @@ swal({
 }
 
 function youarenotlucky() {
-    // document.getElementById('overlaynotlucky').style.display="block";
-    // document.getElementById('hideme').style.display ="none";
-   
-    swal({
+     swal({
         title: "Sorry!",
-        text: "Your Birthday Isn't Lucky, But babu I still Love YOu ",
+        text: "Your Birthday Isn't Lucky",
         icon: "error",
       });
      
     
    
-}
-
-function relodefun() {
-    location.reload();
 }
